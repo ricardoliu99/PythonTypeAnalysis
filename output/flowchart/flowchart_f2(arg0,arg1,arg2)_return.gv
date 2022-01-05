@@ -1,0 +1,8 @@
+digraph {
+	label="Return Type"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	42 [label=" 42: List, String, Float, Tuple, Integer "]
+}

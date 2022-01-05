@@ -1,0 +1,14 @@
+digraph {
+	label="Variable <z>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	3 [label=" 3: Float "]
+	11 [label=" 11: String, Float, List "]
+	3 -> 11
+	14.5 [label=" 14.5: String, Float, List "]
+	11 -> 14.5
+	15 [label=" 15: List, Tuple "]
+	14.5 -> 15
+}

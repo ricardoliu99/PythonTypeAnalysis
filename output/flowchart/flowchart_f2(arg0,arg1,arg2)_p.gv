@@ -1,0 +1,14 @@
+digraph {
+	label="Variable <p>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	30 [label=" 30: Boolean "]
+	38 [label=" 38: List "]
+	30 -> 38
+	41 [label=" 41: Integer "]
+	38 -> 41
+	41.5 [label=" 41.5: Integer, Boolean, List "]
+	41 -> 41.5
+}

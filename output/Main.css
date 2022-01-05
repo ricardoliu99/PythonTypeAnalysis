@@ -1,0 +1,70 @@
+ body {
+  background-color: #f5f2f0;
+}
+
+.b1:link, .b1:visited {
+  background-color: #faae3d;
+  color: white;
+  height: 125px;
+  width: 300px;
+  line-height: 125px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size : 20px;
+  border-radius: 5px;
+  font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+}
+
+.b1:hover, .b1:active {
+  background-color: #f7c747;
+}
+
+.b2:link, .b2:visited {
+  background-color: #e38533;
+  color: white;
+  height: 125px;
+  width: 300px;
+  line-height: 125px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size : 20px;
+  border-radius: 5px;
+  font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+}
+
+.b2:hover, .b1:active {
+  background-color: #f47934;
+}
+
+.b3:link, .b3:visited {
+  background-color: #e4535e;
+  color: white;
+  height: 125px;
+  width: 300px;
+  line-height: 125px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size : 20px;
+  border-radius: 5px;
+  font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+}
+
+.b3:hover, .b3:active {
+  background-color: #f0415e;
+}
+
+.parent{text-align: center;}
+
+ .h1 {
+   text-align: center;
+  font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+ }

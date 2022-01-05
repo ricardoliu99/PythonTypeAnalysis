@@ -1,0 +1,12 @@
+digraph {
+	label="Variable <z>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	28 [label=" 28: List "]
+	34 [label=" 34: List "]
+	28 -> 34
+	34.5 [label=" 34.5: List "]
+	34 -> 34.5
+}

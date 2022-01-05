@@ -1,0 +1,14 @@
+digraph {
+	label="Variable <z>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	72 [label=" 72: Error "]
+	78 [label=" 78: List "]
+	72 -> 78
+	79 [label=" 79: Error "]
+	78 -> 79
+	85 [label=" 85: Error "]
+	79 -> 85
+}

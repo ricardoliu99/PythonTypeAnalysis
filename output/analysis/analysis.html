@@ -1,0 +1,95 @@
+<html><head><link rel="stylesheet" href="analysis.css" /><link rel="stylesheet" href="prism.css" /></head><body class="line-numbers"><script src="prism.js"></script><pre><code class="language-python"><div class="tooltip"><mark class="Multiple">def f1(a, b):</mark><span class="tooltiptext"> List,  Tuple </span></div>
+    <mark class="String">x</mark> = "f2.f2"
+    <mark class="Float">z</mark> = 1.2
+    <mark class="Integer">p</mark> = 1
+    if numpy.random.randint(10) &gt; 5:
+        <mark class="Integer">x</mark> = 1
+    else:
+        <mark class="List">y</mark> = [1, 2]
+    for i in ['str', 1.2, [1]]:
+        if numpy.random.randint(10) &gt; 2:
+            <div class="tooltip"><mark class="Multiple">z</mark> = i<span class="tooltiptext"> String,  Float,  List </span></div>
+            <mark class="Ambiguous">p</mark> += z
+        else:
+            <mark class="Tuple">y</mark> = (1, 2)
+    <div class="tooltip"><mark class="Multiple">z</mark> = y + a<span class="tooltiptext"> List,  Tuple </span></div>
+    <mark class="List">y</mark> = a.copy()
+    <mark class="List">x</mark> *= a
+    <mark class="List">x</mark> = a * b
+
+    return z
+
+<div class="tooltip"><mark class="Multiple">def f2(i, j):</mark><span class="tooltiptext"> List,  String,  Float,  Tuple,  Integer </span></div>
+    <div class="tooltip"><mark class="Multiple">x</mark> = f1(i, 1)<span class="tooltiptext"> List,  Tuple </span></div>
+    <div class="tooltip"><mark class="Multiple">y</mark> = f1([1], 1)<span class="tooltiptext"> List,  Tuple </span></div>
+    <mark class="Error">x</mark> = i * y
+
+    <mark class="List">x</mark> = <mark class="List">y</mark> = "s.t.r.".split(".")
+    <mark class="List">z</mark> = x + y
+    <mark class="Integer">a</mark> = 1
+    <mark class="Boolean">p</mark> = False
+    if numpy.random.randint(15) &gt; 1:
+        <mark class="List">a</mark> = p * i
+    else:
+        <mark class="List">z</mark> = x
+    while numpy.random.randint(1000) &gt; 1:
+        <div class="tooltip"><mark class="Multiple">a</mark> *= j<span class="tooltiptext"> List,  String,  Float,  Tuple,  Integer </span></div>
+        if numpy.random.randint(10) &gt; 5:
+            <mark class="List">p</mark> *= z
+        else:
+            z.append(a)
+            <mark class="Integer">p</mark> = z.index(j)
+    return a
+
+def f3(a, b):
+    <div class="tooltip"><mark class="Multiple">x</mark> = a and b<span class="tooltiptext"> List,  Set,  String,  Float,  Boolean,  Tuple,  Integer,  Dictionary </span></div>
+    <mark class="Integer">y</mark> = numpy.random.randint(10)
+    if x:
+        <mark class="Float">y</mark> += 1.0
+    else:
+        <mark class="Float">y</mark> += False
+
+    <mark class="String">x</mark> = "1 test"
+    <mark class="Integer">x</mark> = x.index("1")
+    <mark class="String">z</mark> = str(x)
+
+    if numpy.random.randint(10) &gt; 5:
+        <mark class="List">y</mark> = [1]
+
+    <div class="tooltip"><mark class="Multiple">z</mark> = a * y<span class="tooltiptext"> List,  String,  Float,  Tuple,  Integer </span></div>
+    <div class="tooltip"><mark class="Multiple">x</mark> = f2(x, y) * 2<span class="tooltiptext"> List,  String,  Float,  Tuple,  Integer </span></div>
+    <div class="tooltip"><mark class="Multiple">y</mark> = b + x<span class="tooltiptext"> List,  String,  Float,  Tuple,  Integer </span></div>
+    <mark class="String">z</mark> = str(y) + str(z)
+
+    for x in range(3):
+        <mark class="String">z</mark> += b
+
+<mark class="Error">def f4(a):</mark>
+    <mark class="Error">k</mark> = ~[1, 2, 3]
+    <mark class="Error">j</mark> = "str" + 1
+    <mark class="String">x</mark> = "str"
+    <mark class="Integer">y</mark> = len(x)
+    <mark class="Error">z</mark> = x + y
+    <mark class="Error">i</mark> += x
+    <mark class="Set">x</mark> = {1, 2}
+    <mark class="List">y</mark> = list(x)
+    <mark class="Error">i</mark> = foo()
+    <mark class="Error">i</mark> = numpy.foo()
+    <mark class="List">z</mark> = a.copy()
+    <mark class="Error">z</mark> *= y
+    for i in 1:
+        print(i)
+    <mark class="Error">x</mark> = f3(a,'a')
+    if numpy.random.randint(3) &gt; 2:
+        <mark class="Error">x</mark> = z + a
+    <mark class="Error">z</mark> = a.pop()
+    <mark class="Error">x</mark> += "str"
+    return x
+
+
+
+
+
+
+
+</code></pre><ul class="legend"><li><span class="Ambiguous"></span>Ambiguous</li><li><span class="List"></span>List</li><li><span class="Float"></span>Float</li><li><span class="String"></span>String</li><li><span class="Integer"></span>Integer</li><li><span class="Tuple"></span>Tuple</li><li><span class="Boolean"></span>Boolean</li><li><span class="Set"></span>Set</li><li><span class="Dictionary"></span>Dictionary</li><li><span class="Error"></span>Error</li><li><span class="Multiple"></span>Multiple</li></ul></body></html>

@@ -1,0 +1,10 @@
+digraph {
+	label="Variable <y>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	71 [label=" 71: Integer "]
+	75 [label=" 75: List "]
+	71 -> 75
+}

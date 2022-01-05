@@ -1,0 +1,16 @@
+digraph {
+	label="Variable <x>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	2 [label=" 2: String "]
+	6 [label=" 6: Integer "]
+	2 -> 6
+	8.5 [label=" 8.5: String, Integer "]
+	6 -> 8.5
+	17 [label=" 17: List "]
+	8.5 -> 17
+	18 [label=" 18: List "]
+	17 -> 18
+}

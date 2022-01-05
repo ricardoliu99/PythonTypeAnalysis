@@ -1,0 +1,10 @@
+digraph {
+	label="Variable <y>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	24 [label=" 24: List, Tuple "]
+	27 [label=" 27: List "]
+	24 -> 27
+}

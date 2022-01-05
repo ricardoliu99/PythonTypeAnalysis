@@ -1,0 +1,16 @@
+digraph {
+	label="Variable <x>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	45 [label=" 45: List, Set, String, Float, Boolean, Tuple, Integer, Dictionary "]
+	52 [label=" 52: String "]
+	45 -> 52
+	53 [label=" 53: Integer "]
+	52 -> 53
+	60 [label=" 60: List, String, Float, Tuple, Integer "]
+	53 -> 60
+	64 [label=" 64: Ambiguous "]
+	60 -> 64
+}

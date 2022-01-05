@@ -1,0 +1,188 @@
+{
+  "numpy.random": {
+    "randint|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    },
+    "randrange|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    },
+    "random|0": {
+      "return": {
+        "0": [
+          "<class 'float'>"
+        ]
+      }
+    }
+  },
+  "str": {
+    "split|1": {
+      "return": {
+        "0": [
+          "<class 'list'>"
+        ]
+      }
+    },
+    "index|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    },
+    "replace|2": {
+      "return": {
+        "0": [
+          "<class 'str'>"
+        ]
+      }
+    },
+    "find|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    }
+  },
+  "list": {
+    "copy|0": {
+      "return": {
+        "0": [
+          "<class 'list'>"
+        ]
+      }
+    },
+    "index|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    },
+    "append|1": {
+    },
+    "clear|0": {
+    },
+    "count|1": {
+    },
+    "insert|2": {
+    },
+    "remove|0": {
+    },
+    "pop|0": {
+    }
+  },
+  "static": {
+    "abs|1": {
+      "return": {
+        "0": [
+          "<class 'int'>",
+          "<class 'float'>"
+        ]
+      }
+    },
+    "all|1": {
+      "return": {
+        "0": [
+          "<class 'bool'>"
+        ]
+      }
+    },
+    "any|1": {
+      "return": {
+        "0": [
+          "<class 'bool'>"
+        ]
+      }
+    },
+    "dict|1": {
+      "return": {
+        "0": [
+          "<class 'dict'>"
+        ]
+      }
+    },
+    "int|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    },
+    "isinstance|2": {
+      "return": {
+        "0": [
+          "<class 'bool'>"
+        ]
+      }
+    },
+    "bool|1": {
+      "return": {
+        "0": [
+          "<class 'bool'>"
+        ]
+      }
+    },
+    "len|1": {
+      "return": {
+        "0": [
+          "<class 'int'>"
+        ]
+      }
+    },
+    "list|1": {
+      "return": {
+        "0": [
+          "<class 'list'>"
+        ]
+      }
+    },
+    "max|2": {
+      "return": {
+        "0": [
+          "<class 'int'>",
+          "<class 'float'>"
+        ]
+      }
+    },
+    "min|2": {
+      "return": {
+        "0": [
+          "<class 'int'>",
+          "<class 'float'>"
+        ]
+      }
+    },
+    "range|1": {
+      "return": {
+        "0": [
+          "<class 'list'>"
+        ]
+      }
+    },
+    "str|1": {
+      "return": {
+        "0": [
+          "<class 'str'>"
+        ]
+      }
+    },
+    "tuple|1": {
+      "return": {
+        "0": [
+          "<class 'tuple'>"
+        ]
+      }
+    },
+    "print|1": {
+    }
+  }
+}

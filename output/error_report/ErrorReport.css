@@ -1,0 +1,12 @@
+ body {
+  background-color: #f5f2f0;
+}
+
+ p {
+     font-size : 20px;
+     font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+ }
+
+ h1{
+     font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+ }

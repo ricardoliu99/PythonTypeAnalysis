@@ -1,0 +1,16 @@
+ body {
+  background-color: #f5f2f0;
+}
+
+ .h1 {
+ font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+ }
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ h1 {text-align: center;}

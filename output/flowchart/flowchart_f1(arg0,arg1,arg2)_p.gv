@@ -1,0 +1,12 @@
+digraph {
+	label="Variable <p>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	4 [label=" 4: Integer "]
+	12 [label=" 12: Ambiguous "]
+	4 -> 12
+	14.5 [label=" 14.5: Ambiguous "]
+	12 -> 14.5
+}

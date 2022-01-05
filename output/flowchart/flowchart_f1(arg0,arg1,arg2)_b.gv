@@ -1,0 +1,8 @@
+digraph {
+	label="Variable <b>"
+	bgcolor="#f5f2f0"
+	node [shape=box]
+	node [fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"]
+	fontname="Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace"
+	-2 [label=" arg1: Integer, Boolean "]
+}

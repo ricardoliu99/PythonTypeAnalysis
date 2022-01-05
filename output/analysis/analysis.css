@@ -1,0 +1,144 @@
+code[class*="language-"],
+pre[class*="language-"] {
+  text-shadow: 0 1px #fff;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  -moz-tab-size: 2; -o-tab-size: 2; tab-size: 2;
+  -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none;
+}
+
+ body {
+  background-color: #f5f2f0;
+}
+
+  mark.Ambiguous {
+    background-color: rgb(70, 240,  240, 0.5);
+
+  }
+
+  mark.List {
+    background-color: rgb(170, 110, 40, 0.5);
+  }
+
+  mark.Float {
+    background-color: rgb(128, 128, 0, 0.5);
+  }
+
+  mark.String {
+    background-color: rgb(0, 128, 128, 0.5);
+  }
+
+  mark.Integer {
+    background-color: rgb(0,130, 200, 0.5);
+  }
+
+  mark.Tuple {
+    background-color: rgb(210, 245, 60, 0.5);
+  }
+
+  mark.Boolean {
+    background-color: rgb(245, 130, 48, 0.5);
+  } 
+
+  mark.Multiple {
+    background-color: rgb(220, 190, 255, 0.5);
+  }
+
+  mark.Set {
+    background-color: rgb(128, 128, 128, 0.5)
+  }
+
+  mark.Dictionary {
+    background-color: rgb(0, 170, 50, 0.5)
+  }
+
+  mark.Error {
+    background-color: rgb(230, 25, 75, 0.5);
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    position: absolute;
+    display: block;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+/* basic positioning */
+.legend { list-style: none; font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;}
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .Ambiguous { background-color: rgba(70, 240, 240, 0.5); }
+.legend .List { background-color: rgba(170, 110, 40, 0.5); }
+.legend .Float { background-color: rgba(128, 128, 0, 0.5); }
+.legend .String { background-color: rgba(0, 128, 128, 0.5); }
+.legend .Integer { background-color: rgba(0,130, 200, 0.5); }
+.legend .Tuple { background-color: rgba(210, 245, 60, 0.5); }
+.legend .Boolean { background-color: rgba(245, 130, 48, 0.5); }
+.legend .Multiple { background-color: rgba(220, 190, 255, 0.5); }
+.legend .Dictionary { background-color: rgba(0, 170, 75, 0.5); }
+.legend .Set { background-color: rgba(128, 128, 128, 0.5) }
+.legend .Error { background-color: rgba(230, 25, 75, 0.5); }
+
+pre[class*="language-"].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+	.line-numbers-rows > span {
+		display: block;
+		counter-increment: linenumber;
+	}
+
+		.line-numbers-rows > span:before {
+			content: counter(linenumber);
+			color: #999;
+			display: block;
+			padding-right: 0.8em;
+            padding-top: 0.0055em;
+			text-align: right;
+		}
